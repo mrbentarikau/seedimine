@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	text-shadow:none;
+}
+
+#container {
+	background:none;
+	background-color:#1a1a1a;
+}
+
+header h1 {
+	color:#404040;
+}
