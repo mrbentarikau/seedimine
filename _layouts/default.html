@@ -13,6 +13,12 @@
 
 {% seo %}
     {% include head-custom.html %}
+    <style>
+        header h1 {
+          font-family:"'Helvetica Neue', Helvetica, Arial, serif!important";
+          color: blue;
+        }
+    </style>
   </head>
 
   <body>
@@ -20,7 +26,7 @@
       <div class="inner">
 
         <header> 
-          <h1 font-family="'Helvetica Neue', Helvetica, Arial, serif;!important">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2 style="font-style: italic;">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <!--section id="downloads" class="clearfix">
